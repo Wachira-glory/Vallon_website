@@ -1,0 +1,153 @@
+.vallona{
+    font-size: 40px;
+}
+.navbar{
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35%;
+}
+.nav{
+   align-items: center;
+}
+.active{
+    color: green;
+}
+.icons{
+    font-size: 1em
+}
+body{
+    margin-left: 11%;
+}
+.firstcontent{
+    position: absolute;
+    color: black;
+    left: 50%;
+    top: 10%;
+    transform: translate(-120%, -70%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+   
+}
+.img1{
+    position: relative;
+    display: inline-block;
+}
+.img1 img{
+    display: block;
+
+}
+.terra{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bolder;
+   font-size:120%;
+}
+.fall{
+    font-weight: bold;
+}
+.inspiration{
+    font-weight: bold;
+    margin-right: 71%;
+}
+.eras{
+    color: grey;
+}
+.firstpart{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.secondcontent{
+    position: absolute;
+    color: black;
+    left: 60%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    padding: 10px, 20px;
+    font-size: 21px;
+    margin-top: 10%;
+    text-align: left;
+
+}
+.dollars{
+    color: green;
+    font-size: 165%;
+}
+.grow{
+    text-align: left;
+}
+.img3{
+    position: relative;
+    display: inline-block;
+}
+.img3 img{
+    display: block;
+    margin-left: 78%;
+
+}
+.thirdcontent{
+    position: absolute;
+    color: black;
+    right: -50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    padding: 10px, 20px;
+    font-size: 21px;
+    margin-top: 10%;
+    text-align: left;
+
+}
+.orch{
+    display: grid;
+    margin-top: -25%;
+   
+}
+.fourthcontent{
+    position: absolute;
+    color: black;
+    left: 50%;
+    top: 10%;
+    transform: translate(-120%, -70%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.sales{
+    display: flex;
+}
+.part1{
+    display: flex;
+}
+.part2{
+    display: flex;
+}
+.thebigpic{
+    display: grid;
+    grid-template-rows:auto auto ;
+}
+@media  (min-width: 768px) and (max-width:991px){
+    .img1 {
+  width: 5%;;
+  }
+  .heroimg{
+    width: 85%;
+    height: 17%;
+    padding-right: 40px;
+   filter: contrast(30%);
+   margin-right: 65%;
+  }
+}
+@media  (min-width: 375px) and (max-width:893px){
+    .img1 {
+  width: -5%;;
+  }
+  
+}
+@media  (min-width: 375px) and (max-width:893px){
+    .heroimg {
+  width: 5%;;
+  }
+  
+}
