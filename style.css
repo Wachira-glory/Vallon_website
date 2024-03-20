@@ -17,14 +17,14 @@
     font-size: 1em
 }
 body{
-    margin-left: 11%;
+    margin-left: 21%;
 }
 .firstcontent{
     position: absolute;
     color: black;
     left: 50%;
-    top: 10%;
-    transform: translate(-120%, -70%);
+    top: 50%;
+    transform: translate(-100%, -190%);
     padding: 10px, 20px;
     text-align: center;
     font-size: 21px;
@@ -62,13 +62,13 @@ body{
     position: absolute;
     color: black;
     left: 60%;
-    top: 10%;
+    top: 7%;
     transform: translate(-50%, -50%);
     padding: 10px, 20px;
     font-size: 21px;
     margin-top: 10%;
     text-align: left;
-
+    margin-left: 5%;
 }
 .dollars{
     color: green;
@@ -84,12 +84,13 @@ body{
 .img3 img{
     display: block;
     margin-left: 78%;
+    top:29%
 
 }
 .thirdcontent{
     position: absolute;
     color: black;
-    right: -50%;
+    right: -60%;
     top: 10%;
     transform: translate(-50%, -50%);
     padding: 10px, 20px;
@@ -116,18 +117,70 @@ body{
 }
 .sales{
     display: flex;
+    gap: 9%;
 }
 .part1{
     display: flex;
+    margin-left: -8%;
+    gap: -2%;
 }
 .part2{
     display: flex;
+    margin-left: -8%;
 }
 .thebigpic{
     display: grid;
     grid-template-rows:auto auto ;
 }
-@media  (min-width: 768px) and (max-width:991px){
+.feature{
+    font-size: 185%;
+    font-weight: bold;
+}
+.springs{
+    color: green;
+}
+.featuresprings{
+    text-align: center;
+}
+.featuredproducts{
+    display: flex;
+    gap: 10px;
+   
+}
+.tree{
+    font-size: 213%;
+    margin-top: 12%;
+    margin-left: 37%;
+}
+.aftertrees{
+    color: grey;
+    font-size: 154%;
+    margin-left: 37%;
+}
+.category{
+    color: black;
+    font-weight: bold;
+}
+span{
+    color: grey;
+}
+.shopnow{
+    color: white;
+    background-color: #6BA920;
+    padding: 13px 36px;
+    border-radius: 10px;
+    border: none;
+}
+.leaves1{
+    width:98%;
+    height: 45%;
+}
+.sixone{
+    display: flex;
+}
+
+
+/* @media  (min-width: 768px) and (max-width:991px){
     .img1 {
   width: 5%;;
   }
@@ -138,16 +191,575 @@ body{
    filter: contrast(30%);
    margin-right: 65%;
   }
+} */
+.living{
+    font-size: 180%;
+
 }
-@media  (min-width: 375px) and (max-width:893px){
-    .img1 {
-  width: -5%;;
-  }
+.price{
+    font-size: 150%;
+}
+.dollars{
+    color: #6BA920;
+}
+.shop{
+    background-color: #6BA920;
+    padding: 13px 15px;
+    color: white;
+    border: none;
+}
+.fifthcontent{
+    position: absolute;
+    color: black;
+    left: 50%;
+    top: 10%;
+    transform: translate(30%, 650%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.leaf22{
+    position: relative;
+    display: inline-block;
+}
+.img leaves1{
+    display: block;
+
+}
+.amazing{
+    font-size:190%;
+}
+.many {
+    display: flex;
+    flex-wrap: wrap;
   
 }
-@media  (min-width: 375px) and (max-width:893px){
-    .heroimg {
-  width: 5%;;
-  }
+.cactus{
+    display: flex;
+    gap:4%;
+}
+.pics{
+    display: flex;
+    gap: 2%;
+}
+.byjinos{
+    display: flex;
+    align-items: center;
+}
+.byjino{
+    color: #6BA920;
+}
+.urban{
+   font-size:  138%;
+   font-weight: bold;
+}
+.testimonials{
+
+  margin-left: 25%;
+}
+.best{
+    color: #6BA920;
+    margin-left: 5%;
+    font-size: 123%;
+}
+.mw img{
+    border-radius: 31px;
+}
+.mz img{
+    border-radius: 31px;
+}
+.mx img{
+    border-radius: 31px;
+}
+.test{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 7%;
+   
+} 
+.goodrange{
+    text-align: center;
+    margin-right: 24%;
+}
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    gap:15%;
+}
+.footer li{
+    color: gray;
+    font-size: 128%;
+    line-height: 2.0;
+    
+}
+.sign{
+   text-align: center;
+   color: gray;
+   font-size: 167%;
+}
+h2{
+    text-align: center;
+}
+.email{
+    color: gray;
+    width: 58%;
+    height: 13%;
+
+}
+.subscribe{
+    background-color: #6BA920;
+    color: white;
+    height: 13%;
+    width: 58%;
+    align-items: center;
+    margin: 0;
+    
+}
+.icons{
+    margin-right: 34%;
+}
+.salespringstore{
+    position: absolute;
+    color: black;
+    left:25%;
+    top: 105%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+      
+}
+.salespring{
+    position: absolute;
+    color: black;
+    left:48%;
+    top: 89%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.salestore{
+    position: absolute;
+    color: black;
+    left:72%;
+    top: 94%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.sal{
+    font-size: 210%;
+}
+.off{
+    font-size: 200%;
+    color: grey;
+}
+.allplants{
+    color: black;
+}
+.sub{
+    font-size: 210%;
+    margin-left: 19%;
+}
+.cat{
+    margin-left: 37%;
+}
+.lone{
+    gap: 60%;
+}
+.container{
+    position: relative;
+}
+.stamp{
+    position: absolute;
+    left: -40px;
+    top: 5%;
+}
+.dollarss{
+    position: absolute;
+    color: black;
+    left:16%;
+    top: 39%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;  
+}
+
+
+
+
+
   
+
+@media  (min-width: 375px) and (max-width:435px){
+
+    .firstcontent{
+        position: absolute;
+        color: black;
+        left: 50%;
+        top: 0%;
+        transform: translate(-100%, -190%);
+        padding: 10px, 20px;
+        text-align: center;
+        font-size: 21px;
+        margin-top: 10%;
+       
+    }
+    .thirdcontent{
+        position: absolute;
+        color: black;
+        left: 11%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        padding: 10px, 20px;
+        font-size: 21px;
+        margin-top: 10%;
+        text-align: left;
+    
+    }
+    .secondcontent{
+        position: absolute;
+        color: black;
+        left: 30%;
+        top: 85%;
+        transform: translate(-50%, -50%);
+        padding: 10px, 20px;
+        font-size: 21px;
+        margin-top: 10%;
+        text-align: left;
+        margin-left: 5%;
+    
+    }
+  body{
+    margin-left: 4%;
+    
+  }
+  .firstpart img{
+    width:90%;
+  }
+  .firstpart{
+    display: block;
+    
+}
+.img2{
+    margin-left: 45%;
+}
+.thirdcontent{
+    position: absolute;
+    color: black;
+    right: -14%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    padding: 10px, 20px;
+    font-size: 21px;
+    margin-top: 10%;
+    text-align: left;
+
+}
+.orch img3{
+    margin-left: 52%;
+}
+.salespringstore{
+    position: absolute;
+    color: black;
+    left:41%;
+    top: 180%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+      
+}
+.sales{
+    display: block;
+}
+.sal{
+    font-size: 130%;
+   
+}
+.salespring{
+    position: absolute;
+    color: black;
+    left:48%;
+    top: 220%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.salestore{
+    position: absolute;
+    color: black;
+    left:50%;
+    top: 270%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.featuredproducts{
+    display: block;
+}
+.aftertrees{
+    color: grey;
+    font-size: 104%;
+    margin-left: 7%;
+}
+.cat{
+    margin-left: 7%;
+}
+.tree{
+    margin-left: 7%;
+}
+.featuredproducts img{
+    width:100%
+}
+.fifthcontent{
+    position: absolute;
+    color: black;
+    left: 20%; 
+    top: 280%;
+    transform: translate(30%, 650%);
+    padding: 10px, 20px;
+    margin-left: -21%;
+    font-size: 21px;
+    margin-top: 10%;
+}
+.living{
+    font-size: 100%;
+
+}
+.price{
+    font-size: 30%;
+}
+.leaves1{
+    width:98%;
+   
+}
+.pics{
+    display: block;
+}
+.cactus{
+    display: block;
+}
+.stamp{
+    position: absolute;
+    /* right: 45px; */
+    top: 5%;
+    margin-left: 10%;
+}
+.dollarss{
+    position: absolute;
+    color: black;
+    left:26%;
+    top: 56%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;  
+}
+.pcs img{
+    width: 95%;
+    margin-left: 3%;
+}
+.testimonials{
+    margin-left: 3%;
+}
+.test{
+    display: flex;
+    margin-left: 4%;
+    margin-right: 7%;
+    gap: 25%;
+   
+} 
+.mw img{
+    border-radius: 31px;
+    width: 94%;
+}
+.mz img{
+    border-radius: 31px;
+    width: 94%;
+}
+.mx img{
+    border-radius: 31px;
+    width: 94%;
+}
+.footer{
+    display: block;
+    
+}
+.footer li{
+    color: gray;
+    font-size: 128%;
+    line-height: 2.0;
+    
+}
+.dollars{
+    color: green;
+    font-size: 65%;
+}
+/* .img3 img{
+    margin-right: 45%;
+} */
+/* .st img{
+    margin-left: 55%;
+} */
+.sales{
+    margin: 30%;
+}
+.orch{
+    margin: 21%;
+}
+.lone{
+    margin: 25%;
+}
+.living{
+    font-size: 150%;
+
+}
+
+
+}
+/* @media  (min-width: 360){
+    .firstpart{
+        display: block;
+      
+    }
+
+}.featuredproducts{
+    display: block;
+}
+.featuredproducts img{
+    width: 189%;
+} */
+
+@media (min-width:1280) {
+    /* .img2{
+        margin: 30%;
+    }
+    .secondcontent{
+        position: absolute;
+        color: black;
+        left: 90%;
+        top: 85%;
+        transform: translate(-50%, -50%);
+        padding: 10px, 20px;
+        font-size: 21px;
+        margin-top: 10%;
+        text-align: left;
+        margin-left: 5%;
+        margin: 30%;
+    
+    }
+    .img2 img{
+        left: 95%;
+    }
+} */
+
+/* .salespringstore{
+    position: absolute;
+    color: black;
+    left:41%;
+    top: 310%;
+    transform: translate(-100%, -190%);
+    padding: 10px, 20px;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10%;
+      
+} */
+/* .firstpart img{
+    width:90%;
+  }
+  .firstpart{
+    display: block;
+    
+} */
+.img1{
+    /* position: relative;
+    display: inline-block; */
+    /* margin-left: 500px; */
+    margin-left: -250px;
+}
+
+}
+@media  (min-width:360) {
+    /* .salespringstore{
+        position: absolute;
+        color: black;
+        left:41%;
+        top: 210%;
+        transform: translate(-190%, -210%);
+        padding: 10px, 20px;
+        text-align: center;
+        font-size: 21px;
+        margin-top: 10%;
+          
+    } */
+    /* .secondcontent{
+        margin-left: 30%;
+    } */
+    /* .firstpart{
+        display: block;
+    }*/
+    .salespringstore{
+        position: absolute;
+        color: black;
+        left:41%;
+        top: 310%;
+        transform: translate(-100%, -190%);
+        padding: 10px, 20px;
+        text-align: center;
+        font-size: 21px;
+        margin-top: 10%;    
+    } 
+    .img1 img{
+        width: 15%;
+        height: 35px;
+    }
+    .firstcontent{
+        position: absolute;
+        color: black;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        padding: 10px, 20px;
+        text-align: center;
+        font-size: 21px;
+        margin-top: 10%;
+       
+    }
+    .footer{
+        display: block;
+    }.pics{
+        display: block;
+    }
+    .sales{
+        display: flex;
+        gap: 1%;
+       
+    }
+    .featuredproducts{
+        display: block; 
+    }
+}
+@media (min-width:1024) and (max-width:1064){
+   .firstpart{
+    display: block;
+   }     
 }
